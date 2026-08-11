@@ -6,7 +6,6 @@
 #         self.right = right
 class Solution:
     def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
-        level = 0
         ans = []
         def Right(node, level):
             if not node:
@@ -15,5 +14,5 @@ class Solution:
                 ans.append(node.val)
             Right(node.right, level + 1)
             Right(node.left, level + 1)
-        Right(root, level)
+        Right(root, 0)
         return ans
