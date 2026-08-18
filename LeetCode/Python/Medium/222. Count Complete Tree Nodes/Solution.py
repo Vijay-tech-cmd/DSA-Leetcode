@@ -23,5 +23,5 @@ class Solution:
         lh = leftHeight(root)
         rh = rightHeight(root)
         if lh == rh:
-            return (1 << lh) - 1
+            return (2 ** lh) - 1
         return 1 + self.countNodes(root.left) + self.countNodes(root.right)
