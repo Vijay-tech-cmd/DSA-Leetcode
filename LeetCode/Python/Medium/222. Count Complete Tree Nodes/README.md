@@ -8,8 +8,8 @@
 Binary Search, Bit Manipulation, Tree, Binary Tree
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 46 ms
+- **Memory:** 23.8 MB
 
 ---
 
