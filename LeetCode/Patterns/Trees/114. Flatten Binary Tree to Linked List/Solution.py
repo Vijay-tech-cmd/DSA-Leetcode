@@ -8,15 +8,14 @@ class Solution:
     def flatten(self, root: Optional[TreeNode]) -> None:
         if not root:
             return
-        curr = root
-        while curr:
+        stack_container = []
+        stack_container.append(root)
+        while stack_container:
+            curr = stack_container.pop()
+            if curr.right:
+                stack_container.append(curr.right)
             if curr.left:
-                prev = curr.left
-                while prev.right:
-                    prev = prev.right
-                prev.right = curr.right
-                curr.right = curr.left
-                curr.left = None
-            curr = curr.right
-        
-        
+                stack_container.append(curr.left)
+            if stack_container:
+                curr.right = stack_container[-1]
+            curr.left = None
