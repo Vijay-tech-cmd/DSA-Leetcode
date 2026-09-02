@@ -12,7 +12,7 @@ class Solution:
             if not node:
                 return None
             left = inorder(node.left)
-            if left is not No:
+            if left is not None:
                 return left
             count += 1
             if count == k:
