@@ -3,7 +3,7 @@
 Track your progress on the NeetCode 150 roadmap practice problems.
 
 ## Progress
-- **Completed:** 2 / 150 (1.3%)
+- **Completed:** 3 / 150 (2.0%)
 
 ---
 
@@ -73,7 +73,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 - [ ] Balanced Binary Tree
 - [ ] Same Tree
 - [ ] Subtree of Another Tree
-- [ ] Lowest Common Ancestor of a Binary Search Tree
+- [x] [Lowest Common Ancestor of a Binary Search Tree](./Python/Medium/235. Lowest Common Ancestor of a Binary Search Tree/)
 - [ ] Binary Tree Level Order Traversal
 - [ ] Binary Tree Right Side View
 - [ ] Count Good Nodes in Binary Tree
