@@ -1,6 +1,6 @@
 # 📝 653. Two Sum IV - Input is a BST (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/two-sum-iv-input-is-a-bst)
+🔗 [Problem Link](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Python-blue)
 
@@ -8,8 +8,8 @@
 Hash Table, Two Pointers, Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 11 ms
+- **Memory:** 21.8 MB
 
 ---
 
