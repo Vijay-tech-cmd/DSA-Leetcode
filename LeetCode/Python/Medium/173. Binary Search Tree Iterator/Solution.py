@@ -20,7 +20,7 @@ class BSTIterator:
         return node.val
 
     def hasNext(self) -> bool:
-        return False if not self.stack else True
+        return len(self.stack) > 0
 
 
 # Your BSTIterator object will be instantiated and called as such:
