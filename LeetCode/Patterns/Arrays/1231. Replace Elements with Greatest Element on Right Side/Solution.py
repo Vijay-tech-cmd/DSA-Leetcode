@@ -1,9 +1,9 @@
 class Solution:
     def replaceElements(self, arr: List[int]) -> List[int]:
-        max_value = arr[-1]
-        arr[-1] = -1
-        for i in range(len(arr)-2,-1,-1):
-            temp = arr[i]
-            arr[i] = max_value
-            if temp > max_value : max_value = temp
+        maxi = -1
+        new_l = []
+        for i in range(len(arr)-1 , -1, -1):
+            curr = arr[i]
+            arr[i] = maxi
+            maxi = max(curr, maxi)
         return arr
