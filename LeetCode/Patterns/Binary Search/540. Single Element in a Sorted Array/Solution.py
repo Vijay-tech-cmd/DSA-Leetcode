@@ -2,7 +2,9 @@ class Solution:
     def singleNonDuplicate(self, nums: List[int]) -> int:
         hashmap = {}
         for i in range(len(nums)):
-            hashmap[nums[i]] = hashmap.get(nums[i], 0) + 1
-        for num in nums:
-            if hashmap[num] == 1:
-                return num
+            if nums[i] not in hashmap:
+                hashmap[nums[i]] = 0
+            hashmap[nums[i]] += 1
+        for i in range(len(nums)):
+            if hashmap[nums[i]] == 1:
+                return nums[i]            
